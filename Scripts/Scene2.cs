@@ -6,7 +6,7 @@ public class ContinueOrQuit : MonoBehaviour {
     public GameObject whoWins;
 
     void Start() {
-        if (!BallMovement.playerWins) whoWins.GetComponent<TMPro.TextMeshProUGUI>().text = "You lost!";
+        if (!BallMovement.playerWins) whoWins.GetComponent<TMPro.TextMeshProUGUI>().text = "You lost.";
     }
 
     public void Continue() {
